@@ -2,6 +2,9 @@
 Copyright (c) 2007 Antti Kupila.
 URL: http://www.anttikupila.com
 
+Patched by Arpit Mathur
+URL:http://arpitonline.com
+
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
 the Software without restriction, including without limitation the rights to
@@ -36,7 +39,7 @@ package com.anttikupila.utils {
 		/**
 		 * JPEG Start Of Frame 0 identifier FFC0 + length & bitdepth
 		 */
-		protected static const SOF0						: Array = [ 0xFF, 0xC0 , 0x00 , 0x11 , 0x08 ];
+		protected static const SOF0						    : Array = [ 0xFF, 0xC0 , 0x00 , 0x11 , 0x08 ];
 		protected static const SOF0_1						: Array = [ 0xFF, 0xC1 , 0x00 , 0x11 , 0x08 ];
 		protected static const SOF0_2						: Array = [ 0xFF, 0xC2 , 0x00 , 0x11 , 0x08 ];
 		protected static const SOF0_3						: Array = [ 0xFF, 0xC3 , 0x00 , 0x11 , 0x08 ];
